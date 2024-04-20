@@ -24,15 +24,16 @@ const projectsData = [
   //   gitUrl: "/",
   //   previewUrl: "/",
   // },
-  // {
-  //   id: 3,
-  //   title: "E-commerce Application",
-  //   description: "Project 3 description",
-  //   image: "/images/projects/3.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
+  {
+    id: 3,
+    title: "Social Media Analysis",
+    description:
+      "Elevate your sentiment analysis ,Using Flask, Vue.js, Python, and Supabase, effortlessly analyze CSV comment files. Tailwind CSS ensures a sleek interface for intuitive insights.",
+    image: "/images/projects/3.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/pushpak-23/jiya",
+    previewUrl: "/",
+  },
   // {
   //   id: 4,
   //   title: "Food Ordering Application",

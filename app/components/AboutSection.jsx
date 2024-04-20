@@ -28,6 +28,17 @@ const TAB_DATA = [
     ),
   },
   {
+    title: "Published Papers",
+    id: "papers",
+    content: (
+      <ul className="list-disc pl-2">
+        <li className="hover:border-2 border-purple-500">
+          <a href="https://www.irjet.net/volume11-issue03">IRJET "SmartPrep"</a>
+        </li>
+      </ul>
+    ),
+  },
+  {
     title: "Certifications",
     id: "certifications",
     content: (
@@ -75,13 +86,20 @@ const AboutSection = () => {
             and more, I&apos;m adept at tackling a wide range of projects.
             Let&apos;s collaborate and turn ideas into reality!
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-8 gap-2">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
               {" "}
               Skills{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("papers")}
+              active={tab === "papers"}
+            >
+              {" "}
+              Published Papers{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
